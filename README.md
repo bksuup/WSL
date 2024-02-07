@@ -6,7 +6,8 @@ Dotfiles og installasjon i WSL
 ### APT
 
 ``` sh
-sudo apt install bat fzf
+sudo apt update && sudo apt upgrade -y
+sudo apt install bat fzf zsh
 ```
 
 ### Oh My ZSH
